@@ -6,7 +6,7 @@ export default function Todo() {
     <div>
       <form>
         <input onChange={(e)=>setTodo(e.target.value)} value={todo} type="text" />
-        <button type="submit">Add</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
