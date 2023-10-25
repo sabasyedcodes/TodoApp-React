@@ -1,3 +1,4 @@
+import InlineComponent from "./components/InlineComponent"
 import Todo from "./components/Todo"
 
 
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <Todo />
+      {/* <Todo /> */}
+      <InlineComponent />
     </div>
 
   )
